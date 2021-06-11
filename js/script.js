@@ -1,3 +1,4 @@
+//Object containing the array building blocks.
 const messageParts = {
     name: [
         'Bryan',
@@ -48,13 +49,13 @@ const messageParts = {
         'Ryanair',
     ],
 };
-
+//Function to create a random number to select the phrase out of each array. Takes a string as input, to create the correct multiplier for Math.random
 const randomNumberSelector = (string) => {
     return (randomNumber = Math.floor(
         Math.random() * string.length
     ));
 };
-
+//Function which creates the actual message. 
 const mixedMessage = () => {
     let name = messageParts.name[randomNumberSelector(messageParts.name)];
     let cabin = messageParts.cabin[randomNumberSelector(messageParts.cabin)];
@@ -63,5 +64,6 @@ const mixedMessage = () => {
     return `Hi <strong>${name}</strong> :). <br> You are flying <strong>${cabin}</strong> to <strong>${destination}</strong> on <strong>${airline}</strong>! <br> Have a save trip!`;
 };
 
+// Stores the sentence in const Text. Then prints it inside the Text div.
 const Text = mixedMessage();
 document.getElementById('Text').innerHTML = Text;
