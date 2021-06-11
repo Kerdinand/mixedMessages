@@ -6,7 +6,7 @@ const messageParts = {
         'Joe',
         'Ferdinand',
         'Lisa',
-        'Sophie',
+        'Sarah',
         'Max',
         'Anne',
         'Joachim',
@@ -18,7 +18,7 @@ const messageParts = {
         'in premium eco',
         'in business',
         'in first',
-        ' in the cargo compartment',
+        'in the cargo compartment',
         'on the wing',
     ],
     destination: [
