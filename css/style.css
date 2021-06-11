@@ -1,3 +1,17 @@
 body {
 	font-family: 'Kalam', cursive;
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: lightblue;
+}
+
+#Text {
+	width: auto;
+	height: 100px;
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 0;
 }
