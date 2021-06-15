@@ -51,9 +51,7 @@ const messageParts = {
 };
 //Function to create a random number to select the phrase out of each array. Takes a string as input, to create the correct multiplier for Math.random
 const randomNumberSelector = (string) => {
-    return (randomNumber = Math.floor(
-        Math.random() * string.length
-    ));
+    return (randomNumber = Math.floor(Math.random() * string.length));
 };
 //Function which creates the actual message. 
 const mixedMessage = () => {
