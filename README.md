@@ -3,6 +3,3 @@ This Repository contains a website template for a card style random travel itine
 
 ## Installation
 Just download the files and place them into your public directory.
-
-## Now Published via two Machines.
-Just for testing purposes.
